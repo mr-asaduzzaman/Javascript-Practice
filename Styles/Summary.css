@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+}
+
+.button-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+}

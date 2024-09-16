@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Event</title>
+    <link rel="stylesheet" href="Styles/index.css">
+</head>
+<body>
+    <h1 id="Heading">We will create some buttons to change the background color</h1>
+    <div class="button-section">
+        <div>
+            <!-- Option-1: Inside an HTML file -->
+            <button onclick="document.body.style.backgroundColor='blue'">Make Blue</button>
+        </div>
+        <div>
+             <!-- Option-2: Call by a function -->
+            <button onclick="MakeRed()">Make Red</button>
+        </div>
+        <div>
+            <!-- Option-3: Call by ID -->
+            <button id="purple-btn">Make Purple</button>
+        </div>
+        <div>
+            <!-- Option-4: Add Event Listener -->
+            <button id="green-btn">Make green</button>
+        </div>
+        <div>
+            <!-- Option-5: Final Method -->
+            <button id="pink-btn">Make Pink</button>
+        </div>
+    </div>
+    <div id="body">BODY</div>
+    <script src="js/index.js"></script>
+</body>
+</html>
