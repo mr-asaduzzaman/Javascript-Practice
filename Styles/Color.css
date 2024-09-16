@@ -1,0 +1,12 @@
+.Box{
+    border: solid 5px;
+    padding: 40px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+body{
+    border: solid rebeccapurple;
+    padding: 10px;
+    border-radius: 25px;
+}
