@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expance Manager</title>
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/e33ac630af.js" crossorigin="anonymous"></script>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- Daisy UI CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+ 
+<body>
+    <section class="text-center items-center">
+
+        <div>
+            
+            <div class="pt-5 font-bold font-serif text-4xl">Total Expense Calculator</div>
+            <div class="flex justify-center pt-5"><img src="/Image/images.jfif"></div>
+            <div class="font-bold font-sans pt-5">Total Expense : <span id="total-span">0</span></div>
+        </div>
+        <br>
+        <div>
+            <input id="expance-fild" type="text" placeholder="Expance Title" class="input input-bordered input-primary w-full max-w-xs" />
+
+            <input id="amount-fild" type="number" placeholder="Amount" class="input input-bordered input-primary w-full max-w-xs" />
+
+            <button id="insart-button" class="btn btn-outline btn-success">Insert</button>
+        </div>
+        <div id="row-container">
+            <!-- <div class="flex justify-evenly font-serif py-1 bg-slate-100">
+                <p>Items Name</p>
+                <p>0</p>
+            </div> -->
+        </div>
+    </section>
+    <script src="Js/Expence.js"></script>
+</body>
+
+</html>

@@ -17,14 +17,19 @@
     </ul>
     <button id="add-btn">Add New</button>
     <script>
+
+        // UL কে ডেকে বলতেছি, তোমার কোনো বাচ্চারে যদি গুতা দেয় ওরে তুমি ত্যাজ্যপুত্র করে দিবা। ওর মতো ছেলের তোমার দরকার নেই।
         document.getElementById('list-items').addEventListener('click', function(event){
             event.target.parentNode.removeChild(event.target);
         })
 
+        // বাটনে ক্লিক করলে তুমি আবার সহজসরল একজন ব্র্যান্ড নিও ছেলে এড করে নিবা।
+        // Button called
         const NewButton = document.getElementById('add-btn');
         NewButton.addEventListener('click', function(){
             const UL = document.getElementById('list-items');
             const li = document.createElement('li');
+        // Li added to UL
             li.innerText = 'This is a brand new list'
             UL.appendChild(li)
         })
